@@ -11,3 +11,4 @@
 .webdav
 .yarn
 *.swp
+node-build-config-openshift/

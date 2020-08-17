@@ -1,12 +1,28 @@
 modules:
-    workshop-overview:
-        name: Workshop Overview
-        exit_sign: Setup Environment
-    setup-environment:
-        name: Setup Environment
-        exit_sign: Start Workshop
-    exercises/01-sample-content:
-        name: Sample Content
-    workshop-summary:
-        name: Workshop Summary
-        exit_sign: Finish Workshop
+  workshop-overview:
+      name: OpenShift 101, Learn the Basics of Red Hat OpenShift on IBM Cloud
+      exit_sign: Setup Environment
+  setup-environment:
+      name: Setup Environment
+      exit_sign: Start Workshop
+  exercises/99-faq/README:
+      name: FAQ
+  exercises/exercise-01/README:
+      name: Deploy a Node application with Source-to-Image
+  exercises/exercise-01b/README:
+      name: Deploy a Java application with a Docker Image
+  exercises/exercise-02/README:
+      name: Logging and monitoring
+  exercises/exercise-03/README:
+      name: Metrics and dashboards
+  exercises/exercise-04/README:
+      name: Scaling the application
+  exercises/exercise-05/README:
+      name: Health checks
+  exercises/exercise-06/README:
+      name: Deploy a Node application with Build Config (CLI version)
+  exercises/exercise-06b/README:
+      name: Deploy a Java application with Build Config (CLI version)
+  workshop-summary:
+      name: Workshop Summary
+      exit_sign: Finish Workshop

@@ -1,13 +1,16 @@
 apiVersion: training.eduk8s.io/v1alpha1
 kind: TrainingPortal
 metadata:
-  name: lab-markdown-sample
+  name: openshift101
 spec:
   portal:
     registration:
       type: anonymous
+    password: oslab
+    ingress:
+      hostname: "learn"
   workshops:
-  - name: lab-markdown-sample
-    capacity: 1
-    expires: 60m
+  - name: openshift101
+    capacity: 10
+    expires: 2h
     orphaned: 5m

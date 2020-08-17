@@ -1,8 +1,16 @@
-name: Markdown Sample
+name: OpenShift 101
 
 modules:
-    activate:
+  activate:
     - workshop-overview
     - setup-environment
-    - exercises/01-sample-content
+    - exercises/99-faq/README
+    - exercises/exercise-01/README
+    - exercises/exercise-01b/README
+    - exercises/exercise-02/README
+    - exercises/exercise-03/README
+    - exercises/exercise-04/README
+    - exercises/exercise-05/README
+    - exercises/exercise-06/README
+    - exercises/exercise-06b/README
     - workshop-summary
